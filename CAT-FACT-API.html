@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            cursor: pointer;
+            margin: 0%;
+            padding: 0%;
+        }
+        .key{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 17%;
+        }
+        input{
+            width: 200px;
+            height: 60px;
+            font-size: 30px;
+            outline: none;
+            border-radius: 20px;
+            border: none;
+        }
+        input:hover{
+            border: 1px solid black;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="key">
+        <br>
+    <input type="button" value="Produce Fact" id="btn">
+    <p id="fact"></p>
+    <script src="FetchApi.js"></script>
+    </div>
+</body>
+</html>

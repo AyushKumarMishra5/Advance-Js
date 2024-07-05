@@ -1,0 +1,6 @@
+synchronus means: writing the code in sequence  and excecuting the code. here each instruction 
+waits for the previous instruction to execute.
+
+Asynchronus:
+it means that if any program is taking too much time for execution then it is ececuted 
+parallely and when the result is obtained it is showed after the other programs are being executed.
